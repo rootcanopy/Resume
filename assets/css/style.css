@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:100,200,300,400,500,600,700|Rubik:100,200,300,400,500,600,700');
+
+/*-----------------------------------------------------colors-->*/
+header {
+    margin: 0;
+}
+.heading{
+    margin-left: 50px;
+}
+.ui-menu-color-home{
+    background-color: #e67e22;
+}
+.ui-menu-color-resume{
+    background-color: #FFD700;
+}
+.ui-menu-color-contact{
+    background-color: #ADFF2F;
+}
+.ui-menu-color-download{
+    background-color: #00BFFF;
+}
+/*------------------------------------------------------Heading  */
+.logo {
+    background: url("../images/me.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.bg-color-name-title{
+    background-color: #20b2aa;
+}
+.name {
+    font-family: "Rubik";
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+}
+.title {
+    font-family: "Nanum-Gothic";
+    font-weight: 200;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+.menucontainer {
+    font-size: 0;
+}
+#nav {
+    margin: 0;
+}
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0px;
+}
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    height: 120px;
+    color: white;
+}
+.menuitem a i {
+    display: block;
+    padding-top: 22px;
+    font-size: 40px;
+}
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+/*-------------------------------------------------Hover.css--*/
+
+.hvr-radial-in:before {
+    background-color: rgba(0.0.0. 0.2);
+    height: 120px;
+}
