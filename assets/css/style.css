@@ -7,6 +7,9 @@ header {
 .heading{
     margin-left: 50px;
 }
+.bg-color-contact {
+    background-color: #fff;
+}
 .bg-color-personal-info {
     background-color: #f4f4f4;
 }
@@ -143,6 +146,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    text-align: center;
 }
 .cv-pdf i {
     font-size: 18px;
@@ -290,4 +294,35 @@ footer {
 }
 .history-items {
     margin-bottom: 30px;
+}
+
+/*------------------------------------------------------ Contact Form  */
+
+.contact-heading {
+    color: 'Rubik';
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.center-form {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 30%;
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610; 
+}
+
+/*------------------------------------------------------ Media Queries  */
+
+@media (min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        margin: 0 auto;
+        max-width: 70%;
+        min-height: 50%;
+}
 }
